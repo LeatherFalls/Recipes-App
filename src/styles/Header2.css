@@ -1,0 +1,23 @@
+.header2-icons {
+  align-items: center;
+  background-color: var(--main-color);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.screen-name {
+  color: white;
+  margin: 10px;
+}
+
+.header2-icons img {
+  filter: invert(100%);
+  height: var(--icons-size);
+  margin: 10px;
+  width: var(--icons-size);
+}

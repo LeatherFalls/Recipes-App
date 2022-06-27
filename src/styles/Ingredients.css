@@ -1,0 +1,81 @@
+.checked {
+  text-decoration: line-through solid black;
+}
+
+.ingredients-container {
+  margin: 1rem;
+}
+
+.ingredients-title {
+  border-bottom: 2px solid var(--main-color);
+  margin-bottom: 1.5rem;
+  width: 7rem;
+}
+
+.ingredients-container ul {
+  list-style: none;
+}
+
+.ingredient-checkbox {
+  appearance: none;
+  background: #cbd1d8;
+  border: none;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  left: 0;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  right: 0;
+  top: 4px;
+  transition: all 0.15s ease-out 0s;
+  width: 20px;
+  z-index: 1000;
+}
+
+.ingredient-checkbox:checked {
+  background-color: var(--main-color);
+  text-decoration: none solid black;
+}
+
+.ingredient-checkbox:checked:before {
+  align-items: center;
+  content: 'x';
+  display : flex;
+  font-size: 15px;
+  font-weight: 500;
+  height: 19px;
+  justify-content: center;
+  position: absolute;
+  width: 20px;
+}
+
+.ingredient-checkbox:checked:after {
+  animation: click-wave 0.65s;
+  background: var(--main-color);
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+@keyframes click-wave {
+
+  0% {
+    height: 40px;
+    opacity: 0.35;
+    position: relative;
+    width: 40px;
+  }
+
+  100% {
+    height: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+    width: 200px;
+  }
+}

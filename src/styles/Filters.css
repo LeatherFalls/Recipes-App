@@ -1,0 +1,29 @@
+.buttons-filter-container {
+  margin: 1rem 1rem 0.5rem 1.5rem;
+}
+
+.categories {
+  border-bottom: 2px solid var(--main-color);
+  color: var(--font-black);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transform: translateX(5px);
+  width: 5.7rem;
+}
+
+.categories-inputs {
+  display: flex;
+  overflow-x: auto;
+  width: 96%;
+}
+
+.categories-inputs::-webkit-scrollbar {
+  display: none;
+}
+
+.buttons-filter-container input {
+  background-color: var(--main-color);
+  border-radius: 50px;
+  color: white;
+  padding: 10px;
+}

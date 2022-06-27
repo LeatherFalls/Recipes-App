@@ -1,0 +1,38 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transform: translateY(100%);
+}
+
+.profile-email {
+  border-bottom: 3px solid var(--main-color);
+  text-align: center;
+  width: auto;
+}
+
+.links-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transform: translateY(70%);
+}
+
+a button {
+  background-color: var(--main-color);
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  height: 3rem;
+  margin-bottom: 2rem;
+  width: 10rem;
+}
+

@@ -1,0 +1,107 @@
+.detail-img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 20rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.detail-img a {
+  border-bottom: 1px solid var(--main-color);
+  color: white;
+  position: absolute;
+  text-shadow: 2px 2px 2px rgb(22, 22, 22);
+  transform: translate(15px, 5px);
+  z-index: 100;
+}
+
+.detail-img img {
+  filter: blur(0.8px);
+  width: 100%;
+}
+
+.title-container {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: absolute;
+  transform: translate(0, -130px);
+  width: 100%;
+}
+
+.category-title h1 {
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgb(22, 22, 22);
+}
+
+.category-title p {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(22, 22, 22);
+}
+
+.details-btns {
+  display: flex;
+  position: relative;
+  transform: translate(10px, 10px);
+}
+
+.share-button {
+  margin-right: 0;
+}
+
+button {
+  background-color: transparent;
+  padding: 0 15px;
+}
+
+.details-video {
+  border-bottom: 2px solid var(--main-color);
+  margin: 1rem;
+  width: 3.5rem;
+}
+
+.recomendations-container {
+  display: flex;
+  overflow: auto;
+}
+
+.details-recomendations {
+  border-bottom: 2px solid var(--main-color);
+  margin: 1rem;
+  width: 10.5rem;
+}
+
+.btn-start-recipe-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-start-recipe-container a {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-start-recipe {
+  align-items: center;
+  background-color: var(--main-color);
+  border-radius: 5px;
+  bottom: 0%;
+  color: white;
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+  height: 3rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  position: fixed;
+  transform: translate(70%);
+  width: 10rem;
+}
+
+.react-multi-carousel-list {
+  margin-bottom: 100px;
+}
+

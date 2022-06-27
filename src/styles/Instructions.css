@@ -1,0 +1,9 @@
+.instructions-container {
+  margin: 1rem;
+}
+
+.instructions-title {
+  border-bottom: 2px solid var(--main-color);
+  margin-bottom: 1.5rem;
+  width: 7.2rem;
+}

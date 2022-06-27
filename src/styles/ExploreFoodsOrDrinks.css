@@ -1,0 +1,17 @@
+.explore-links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform: translate(7rem, 12rem);
+}
+
+.explore-links button {
+  background-color: var(--main-color);
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  height: 3rem;
+  margin-bottom: 2rem;
+  width: 10rem;
+}

@@ -1,0 +1,81 @@
+.done-filters {
+  margin: 1rem 1rem 0.5rem 1.5rem;
+}
+
+.done-filters button {
+  background-color: var(--main-color);
+  border-radius: 50px;
+  color: white;
+  margin-right: 2px;
+  padding: 10px;
+}
+
+.done-image-container {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.done-image {
+  position: relative;
+  width: 75px;
+}
+
+.done-image a {
+  width: 100%;
+}
+
+.done-image a img {
+  border-radius: 1rem 1rem 0;
+  width: 100%;
+}
+
+.done-information-container {
+  border-radius: 0 0.5rem 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.6rem var(--s-s) , 0 0.5rem 1.125rem var(--t-s);
+  display: flex;
+  height: 4rem;
+  position: relative;
+  transform: translate(-2rem, 1rem);
+  width: 100%;
+}
+
+.information-content {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  transform: translateX(-1rem);
+}
+
+.information-content a {
+  font-size: 11px;
+}
+
+.information-content a h3 {
+  font-size: 11px;
+  margin-right: 0.5rem;
+}
+
+.information-content h6 {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.information-share {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  transform: translate(16rem, 1rem);
+}
+
+.share-button {
+  align-items: center;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  width: 2rem;
+}

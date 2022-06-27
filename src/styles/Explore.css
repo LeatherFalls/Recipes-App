@@ -1,0 +1,23 @@
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.explore {
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(15rem);
+}
+
+.explore-btn {
+  background-color: var(--main-color);
+  border-radius: 5px;
+  box-shadow: 0.25rem 0.25rem 0.6rem var(--s-s) , 0 0.5rem 1.125rem var(--t-s);
+  color: white;
+  filter: none;
+  padding: 6px;
+}

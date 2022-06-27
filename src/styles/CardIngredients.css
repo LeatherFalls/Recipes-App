@@ -1,0 +1,19 @@
+.recipe-ingredients {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img-ingredient img {
+  height: 5rem;
+}
+
+.more-details--ingredients {
+  font-weight: 700;
+}
+
+.more-details--ingredients span {
+  color: var(--main-color);
+  font-weight: 700;
+}
